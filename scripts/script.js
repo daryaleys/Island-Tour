@@ -15,13 +15,14 @@ $(document).ready(() => {
 
     // burger
     $('#burger').click(() => {
-        $('.menu').css('display', 'flex').addClass('open');
+        $('.menu').addClass('open');
         $('.close').show();
+
+
     })
 
-    $('#menu-close').click (() => {
-        $('.menu').hide().removeClass('open');
-
+    $('.menu *').click (() => {
+        $('.menu').removeClass('open');
     })
 
     // places
