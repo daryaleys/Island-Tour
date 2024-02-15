@@ -242,4 +242,7 @@ $(document).ready(() => {
 
     $('#back-order-button').click(resetForm);
     $('#close').click(resetForm);
+
 })
+
+window.Telegram.WebApp.expand();
